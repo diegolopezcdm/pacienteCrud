@@ -1,0 +1,7 @@
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\bin\WebServices.dll
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\bin\WebServices.pdb
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\obj\Debug\WebServices.dll
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\obj\Debug\WebServices.pdb
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\bin\Iesi.Collections.dll
+C:\Users\WorkstationDiego\Documents\Visual Studio 2010\Projects\ProyectoSDS\WebServices\bin\NHibernate.dll
