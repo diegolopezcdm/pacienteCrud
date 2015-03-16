@@ -13,11 +13,11 @@ namespace WebServices
     public interface IPacientes
     {
         [OperationContract]
-        Paciente crearPaciente(string nombre, string correo, int sede);
+        Paciente crearPaciente(string nombre, string apellido, string dni, DateTime birthDay, string direccion, string distrito, string status, string historiaClinicaId, DateTime createDate, DateTime updateDate, int userCreated, int userUpdated, int sexo, string nombreReferente, string telefonoReferente);
         [OperationContract]
         Paciente obtenerPaciente(int codigo);
         [OperationContract]
-        Paciente ModificarPaciente(int codigo, string nombre, string correo, int sese);
+        Paciente ModificarPaciente(int codigo, string nombre, string apellido, string dni, DateTime birthDay, string direccion, string distrito, string status, string historiaClinicaId, DateTime createDate, DateTime updateDate, int userCreated, int userUpdated, int sexo, string nombreReferente, string telefonoReferente);
         [OperationContract]
         void EliminarPaciente(int codigo);
         [OperationContract]

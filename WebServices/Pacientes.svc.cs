@@ -25,11 +25,27 @@ namespace WebServices
         }
 
 
-        public Dominio.Paciente crearPaciente(string nombre, string correo, int sede)
+        public Dominio.Paciente crearPaciente(string nombre, string apellido, string dni, DateTime birthDay, string direccion, 
+            string distrito, string status, string historiaClinicaId, DateTime createDate, DateTime updateDate, int userCreated,
+            int userUpdated, int sexo, string nombreReferente, string telefonoReferente)
         {
             Paciente pacienteNuevo = new Paciente
             {
-                Nombre = nombre
+                Nombre = nombre,
+                Apellido = apellido,
+                Dni = dni,
+                BirthDay = birthDay,
+                Direccion = direccion,
+                Distrito = distrito,
+                Status = status,
+                HistoriaClinidaId = historiaClinicaId,
+                CreatedDate = createDate,
+                UpdatedDate = updateDate,
+                UserCreated = userCreated,
+                UserUpdated = userUpdated,
+                Sexo = sexo,
+                NombreReferencia = nombreReferente,
+                TelefonoReferencia = telefonoReferente
             };
 
             return PacienteDao.Crear(pacienteNuevo);
@@ -40,12 +56,26 @@ namespace WebServices
             return PacienteDao.Obtener(codigo);
         }
 
-        public Dominio.Paciente ModificarPaciente(int codigo, string nombre, string correo, int sese)
+        public Dominio.Paciente ModificarPaciente(int codigo, string nombre, string apellido, string dni, DateTime birthDay, string direccion, string distrito, string status, string historiaClinicaId, DateTime createDate, DateTime updateDate, int userCreated, int userUpdated, int sexo, string nombreReferente, string telefonoReferente)
         {
             Paciente pacienteNuevo = new Paciente
             {
                 Codigo = codigo,
-                Nombre = nombre
+                Nombre = nombre,
+                Apellido = apellido,
+                Dni = dni,
+                BirthDay = birthDay,
+                Direccion = direccion,
+                Distrito = distrito,
+                Status = status,
+                HistoriaClinidaId = historiaClinicaId,
+                CreatedDate = createDate,
+                UpdatedDate = updateDate,
+                UserCreated = userCreated,
+                UserUpdated = userUpdated,
+                Sexo = sexo,
+                NombreReferencia = nombreReferente,
+                TelefonoReferencia = telefonoReferente
             };
 
             return PacienteDao.Modificar(pacienteNuevo);
